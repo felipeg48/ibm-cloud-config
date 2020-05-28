@@ -1,2 +1,11 @@
 app:
   msg: "APP: Hello World"
+
+simple:
+  hostname: "local.dev"
+  port: 8080
+  username: admin
+  password: admin
+  alternateServers:
+    - "192.168.2.1:4567"
+    - "192.168.2.2:3456"
